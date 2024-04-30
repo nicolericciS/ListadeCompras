@@ -1,23 +1,31 @@
-## Integrantes do grupo:
+# ListadeCompras
 
-Anna Cristina             RM:94795
-Arthur Cardoso             RM:93186
-Felipe Palmeira         RM:92835
-Isabella Fabre            RM:88726
-Luauberth Sampaio          RM:96260
-Nicolas Ormart            RM:95016
-Nicole Ricci de Souza        RM:96154
-Roberta Costa             RM:93803
-Rodrigo Ronchi             RM:93262
-Yuri Gabriel Sales Silva     RM:96069
+<br>
 
+<b>Integrantes do grupo:</b>
 
+- Anna Cristina             RM:94795 <br>
+- Arthur Cardoso             RM:93186 <br>
+- Felipe Palmeira         RM:92835 <br>
+- Isabella Fabre            RM:88726 <br>
+- Luauberth Sampaio          RM:96260 <br>
+- Nicolas Ormart            RM:95016 <br>
+- Nicole Ricci de Souza        RM:96154 <br>
+- Roberta Costa             RM:93803 <br>
+- Rodrigo Ronchi             RM:93262 <br>
+- Yuri Gabriel Sales Silva     RM:96069 <br>
+
+<br>
+
+---
+
+<br> 
 
 # Melhorias feitas no código 
 
 ## 1. Trocar o "findViewById" por "binding"
 
-	Realizamos essa troca pois o binding é uma maneira mais eficaz de acesso a todas as views em um layout.
+Realizamos essa troca pois o binding é uma maneira mais eficaz de acesso a todas as views em um layout.
 
 <br>
 
