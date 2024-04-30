@@ -1,5 +1,3 @@
-# ListadeCompras
-
 ## Integrantes do grupo:
 
 Anna Cristina             RM:94795
@@ -15,29 +13,35 @@ Yuri Gabriel Sales Silva     RM:96069
 
 
 
-## Melhorias feitas no código 
+# Melhorias feitas no código 
 
-1 - Trocar o "findViewById" por "binding"
+## 1. Trocar o "findViewById" por "binding"
 
-Realizamos essa troca pois o binding é uma maneira mais eficaz de acesso a todas as views em um layout.
+	Realizamos essa troca pois o binding é uma maneira mais eficaz de acesso a todas as views em um layout.
+
+<br>
 
 
-2 - evitar inserir um texto vazio na lista 
+## 2.evitar inserir um texto vazio na lista 
 
 Essa melhoria foi implementada para evitar a inserção de um item vazio na lista compras, garantindo assim a integridade e consistência dos dados inseridos.
-
-if (editText.text.isEmpty()) {
+	
+```kotlin
+ if (editText.text.isEmpty()) {
                 editText.error = "Preencha um valor"
                 return@setOnClickListener
            }
 
+```
 
-3 - Caixa de confirmação de exclusão de produto da lista
+<br>
 
+## 3. Caixa de confirmação de exclusão de produto da lista
+	
 Esse melhoria foi adicionada com a intenção de evitar que o usuário exclua itens da lista acidentalmente.
 
-
-fun showConfirmationDialog(item: ItemModel) {
+```kotlin
+	fun showConfirmationDialog(item: ItemModel) {
         AlertDialog.Builder(this)
             .setTitle("Deseja Excluir o Produto?")
             .setMessage("Essa ação não poderá ser desfeita")
@@ -52,4 +56,4 @@ fun showConfirmationDialog(item: ItemModel) {
             .show()
     }
 
-
+```
